@@ -8,7 +8,7 @@ const rankedLevelMsg = (level) => {
   console.log(`O Herói tem de saldo de ${result} está no nível de ${level}`);
 };
 
-if (result < 10) {
+if (result <= 10) {
   rankedLevelMsg("Ferro");
 } else if (result >= 11 && result <= 20) {
   rankedLevelMsg("Bronze");
